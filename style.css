@@ -16,12 +16,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
+	margin: 30;
+	padding: 30;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-align: center;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,9 +30,18 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
 	background-color: peachpuff;
-	font-family: Helvetica;
+	margin-top: 40px;
+	max-width: 800px;
+}
+h1 {
+	font-size: 35px;
+	color: palevioletred;
+	font-family: Segoe UI;
+	margin: 5px;
 }
 ol, ul {
 	list-style: none;
@@ -50,5 +60,34 @@ table {
 }
 p {
 	color: navy;
-	
+	font-family: Courier;
+	padding: 10px;
+	margin: 5px;
+}
+.tuna {
+	color: orangered
+}
+#noted {
+	color: mediumslateblue;
+	font-family: Cambria;
+}
+h3 {
+	color: rosybrown;
+	font-family: sans-serif;
+	margin: 5px;
+	font-size: 22px;
+}
+article {
+	border: 10px solid pink;
+	border-radius: 15px;
+	padding: 5px;
+	margin: 15px;
+	background-color: seashell;
+}
+header {
+	font-size: 25px;
+}
+img {
+	border: 6px solid palevioletred;
+	border-radius: 15px;
 }
